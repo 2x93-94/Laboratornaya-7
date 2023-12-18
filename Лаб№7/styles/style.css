@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/background.png);
+    width: 100%;
+    height: 100%;
+    background-repeat:repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat Alternates';
+    color: white;
+}
+
+/* Главная секция */
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
+
+/* Шапка */
+.header{
+    height: 100px;
+    width: 1400px;
+    margin: 0 auto;
+    justify-content: left;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+}
+.header img{
+    height: 56px;
+    width: 56px;
+    cursor: pointer;
+
+}
+.header ul{
+    justify-content: left;
+    display: flex;
+    align-items: center;
+}
+.list1{
+    margin: 0;
+    padding-left: 100px;
+    padding-top: 31px;
+    padding-bottom: 31px;
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+}
+.list1 a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+}
+.list1 a:last-child{
+    margin: 0;
+}
+
+/* Аннотация */
+.annotation{
+    width: 930px;
+    height: 700px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+.annotation h1{
+    margin: 0 auto;
+    
+    font-size: 70pt;
+    line-height: 126.7%; /* 101.36px */
+    letter-spacing: -2.4px;
+    text-align: center;
+}
+.annotation p{
+    font-size: 20pt;
+}
+.btn{
+    height: 80px;
+    width: 300px;
+    background: none;
+    border-radius: 40px;
+    border-color: white;
+    border-width: 4pt;
+    color: white;
+    font-size: 16pt;
+    font-family: 'Montserrat Alternates';
+    border: solid;
+}
+/* Секция "О нас" */
+.about{
+    background-image: url(../img/about.jpg);
+    width: 100%;
+    height: 721px;
+    background-repeat:repeat;
+    background-position: center;
+    background-size: cover;
+    flex-shrink: 0;
+    background-color: #696969;
+    background-blend-mode: multiply;
+}
+.about p{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin: auto;
+    margin-left: 146px;
+    width: 40%;
+    height: 469px;
+    flex-shrink: 0;
+    font-size: 16pt;
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+}
+
+/* Секция "Программы" */
+.programs{
+    margin: 0 auto;
+    padding-top: 66px;
+    width: 1150px;
+    display: grid;
+    grid-template-rows: minmax(100px, auto);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.program1 .program2 .program3 .img1 .img2 .img3{
+    width: 550px;
+    height: 450px;
+}
+.img1{
+    background-image: url(../img/p1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 550px;
+    height: 420px;
+    border-radius: 20px;
+}
+.img2{
+    background-image: url(../img/p2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 550px;
+    height: 420px;
+    border-radius: 20px;
+}
+.img3{
+    background-image: url(../img/p3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 550px;
+    height: 420px;
+    border-radius: 20px;
+}
+.program1 {
+    color: #FFF;
+    text-align: right;
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.program1 h2{
+    margin: 0;
+    color: #FFF;
+    font-family: Montserrat Alternates;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.program2 {
+    color: #FFF;
+    text-align: left;
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.program2 h2{
+    margin: 0;
+    color: #FFF;
+    font-family: Montserrat Alternates;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.program3 {
+    color: #FFF;
+    text-align: right;
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.program3 h2{
+    margin: 0;
+    color: #FFF;
+    font-family: Montserrat Alternates;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.btn2 {
+    height: 50px;
+    width: 250px;
+    background-color: #FFF;
+    border-radius: 40px;
+    border-color: white;
+    border-width: 2pt;
+    color: white;
+    font-size: 16pt;
+    font-family: 'Montserrat Alternates';
+    color:black;
+    font-weight: bold;
+    border: none;
+}
+
+/* Секция "Преподаватели" */
+.mentors{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+    text-align: center;
+}
+.mentors h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat Alternates;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.prof :hover{
+    background-color: grey;
+    background-blend-mode: multiply;
+}
+.prof {
+    width: 1148px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: minmax(100px, auto);
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+}
+.prof1{
+    background-image: url(../img/m1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 346px;
+    height: 346px;
+    border-radius: 20px;
+}
+.prof2{
+    background-image: url(../img/m2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 346px;
+    height: 346px;
+    border-radius: 20px;
+}
+.prof3{
+    background-image: url(../img/m3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 346px;
+    height: 346px;
+    border-radius: 20px;
+}
+
+/* Подвал */
+footer{
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    background-color: black;
+}
+.wrapper{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+}
+.wrapper li{
+    margin: 0;
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+}
+.btn :hover{
+ background-color: darkorchid;
+}
